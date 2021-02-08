@@ -7,6 +7,10 @@ package com.study.entity;
 
 public class User {
 
+    public User() {
+
+    }
+
     private Integer age;
 
     private Long id;
@@ -36,4 +40,6 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }
